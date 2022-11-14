@@ -24,7 +24,7 @@ class CarForm extends Component {
                 className="input-field"
                 helperText=" "
                 id="demo-helper-text-aligned"
-                label=" Your Name"
+                label=" Car Name"
               />
               <TextField
                 sx={{ textIndent: "10px" }}

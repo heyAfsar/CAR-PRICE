@@ -45,4 +45,35 @@
     margin-left: 10px;
 }
 
+   
+   @media(max-width:420px){
+    body{
+        margin: 7px !important;
+    }
+     .main-container{
+        height: auto !important;
+        margin: auto 4px;
+        padding: 10px;
+     }
+     .form-container{
+        height: auto !important;
+     }
+    .title{
+        margin-bottom: 8px !important;
+     }
+     .input-field{
+        width: 314px;
+     }
+   }
+   @media(max-width:560px){
+     .main-container{
+        padding: 10px !important;
+     }
+   }
+   @media(max-width:280px){
+     .container .title{
+       font-size: 18px !important;
+       height: 82px !important;
+   }
+   }
 
